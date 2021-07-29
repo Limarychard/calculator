@@ -16,9 +16,9 @@
 
             <input disabled id="input-value" class="display">
 
-            <button class="item clear button-operations"> AC </button>
-            <button class="item plus-minus button-operations">+/-</button>
-            <button class="item percent button-operations">%</button>
+            <button onclick="clearInput()" class="item clear button-operations"> AC </button>
+            <button onclick="invertValue()" class="item plus-minus button-operations">+/-</button>
+            <button onclick="percent()" class="item percent button-operations">%</button>
             <button onclick="insertValue('/')" class="item division button-operations-right">÷</button>
 
             <button onclick="insertValue('7')" class="item seven button-numbers">7</button>
